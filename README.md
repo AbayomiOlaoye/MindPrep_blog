@@ -1,43 +1,4 @@
-# curriculum-databases-projects-template
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -63,29 +24,25 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [MindPrep Blog] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**MindPrep Blog** is a classic example of a blog website, created as a fully functional website that shows the list of posts and empowers readers to interact with them by adding comments and liking posts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://expressjs.com/">Ruby on Rails</a></li>
   </ul>
 </details>
 
@@ -100,11 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Fully functional website**
+- **Leverages RDMS (PostgreSQL)**
+- **Aesthetic Design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,9 +67,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+This section will be updated as soon as it is ready.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,83 +75,40 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
-
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- IDE or code editor: **VsCode, atom, sublime**...
+- To have [Ruby](https://www.ruby-lang.org/en/), [RoR gem](https://rubyonrails.org/) and [Git](https://git-scm.com/) installed on your system.
 
 ### Setup
-
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
+Clone this project on your local machine using the following command on your terminal:
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/abayomiolaoye/MindPrep_blog.git
+  cd MindPrep_blog
 ```
---->
-
 ### Install
-
-Install this project with:
-
-<!--
-Example command:
-
+Run the following command to install all project's dependencies:
 ```sh
-  cd my-project
-  gem install
+bundle install
 ```
---->
-
+Run the following command to install Rspec for tests:
+```sh
+gem install rspec
+```
 ### Usage
-
 To run the project, execute the following command:
-
-<!--
-Example command:
-
 ```sh
-  rails server
+  rails s
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
+## Run Tests
+Run the following command to catch all style errors:
 ```sh
-  bin/rails test test/models/article_test.rb
+rubocop
 ```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
+Run the following command for the rspec tests(with details):
 ```sh
-
+rspec ./spec --format documentation
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,19 +116,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Oluwatoyin Olaoye**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Olaoye](https://github.com/abayomiolaoye)
+- Twitter: [@Olaoye](https://twitter.com/olaoyeelijah)
+- LinkedIn: [Oluwatoyin Olaoye](https://linkedin.com/in/oluwatoyinolaoye)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,11 +128,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Use React for the Views**
+- [ ] **Implement some mmotions and transitions**
+- [ ] **Build Forms for comments and posts**
+- [ ] **Validations, Model specs, and n+1 problems**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +149,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, a star will be appreciated.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,25 +157,11 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Paul Mosanya for his unquantifiable contributions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -285,7 +170,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
