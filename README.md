@@ -75,82 +75,40 @@ This section will be updated as soon as it is ready.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
-
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- IDE or code editor: **VsCode, atom, sublime**...
+- To have [Ruby](https://www.ruby-lang.org/en/), [RoR gem](https://rubyonrails.org/) and [Git](https://git-scm.com/) installed on your system.
 
 ### Setup
-
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
+Clone this project on your local machine using the following command on your terminal:
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/abayomiolaoye/MindPrep_blog.git
+  cd MindPrep_blog
 ```
---->
-
 ### Install
-
-Install this project with:
-
-<!--
-Example command:
-
+Run the following command to install all project's dependencies:
 ```sh
-  cd my-project
-  gem install
+bundle install
 ```
---->
-
+Run the following command to install Rspec for tests:
+```sh
+gem install rspec
+```
 ### Usage
-
 To run the project, execute the following command:
-
-<!--
-Example command:
-
 ```sh
-  rails server
+  rails s
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
+## Run Tests
+Run the following command to catch all style errors:
 ```sh
-  bin/rails test test/models/article_test.rb
+rubocop
 ```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
+Run the following command for the rspec tests(with details):
 ```sh
-
+rspec ./spec --format documentation
 ```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
