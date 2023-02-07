@@ -1,0 +1,24 @@
+{
+  "name": "mindprep_blog",
+  "version": "1.0.0",
+  "description": "- [📖 About the Project](#about-project)   - [🛠 Built With](#built-with)     - [Tech Stack](#tech-stack)     - [Key Features](#key-features)   - [🚀 Live Demo](#live-demo) - [💻 Getting Started](#getting-started)   - [Setup](#setup)   - [Prerequisites](#prerequisites)   - [Install](#install)   - [Usage](#usage)   - [Run tests](#run-tests)   - [Deployment](#triangular_flag_on_post-deployment) - [👥 Authors](#authors) - [🔭 Future Features](#future-features) - [🤝 Contributing](#contributing) - [⭐️ Show your support](#support) - [🙏 Acknowledgements](#acknowledgements) - [❓ FAQ](#faq) - [📝 License](#license)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbayomiOlaoye/MindPrep_blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbayomiOlaoye/MindPrep_blog/issues"
+  },
+  "homepage": "https://github.com/AbayomiOlaoye/MindPrep_blog#readme"
+}
