@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [MindPrep Blog] <a name="about-project"></a>
 
 **MindPrep Blog** is a classic example of a blog website, created as a fully functional website that shows the list of posts and empowers readers to interact with them by adding comments and liking posts.
 
@@ -116,9 +116,7 @@ rspec ./spec --format documentation
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Oluwatoyin Olaoye**
 
 - GitHub: [@Olaoye](https://github.com/abayomiolaoye)
 - Twitter: [@Olaoye](https://twitter.com/olaoyeelijah)
@@ -130,8 +128,10 @@ rspec ./spec --format documentation
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use React for the client design**
+- [ ] **Use React for the Views**
 - [ ] **Implement some mmotions and transitions**
+- [ ] **Build Forms for comments and posts**
+- [ ] **Validations, Model specs, and n+1 problems**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
