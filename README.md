@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [MindPrep Blog] <a name="about-project"></a>
+# 📖 MindPrep Blog <a name="about-project"></a>
 
 **MindPrep Blog** is a classic example of a blog website, created as a fully functional website that shows the list of posts and empowers readers to interact with them by adding comments and liking posts.
 
