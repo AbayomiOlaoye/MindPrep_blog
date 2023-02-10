@@ -7,6 +7,10 @@ class User < ApplicationRecord
     posts.limit(3).order(created_at: :desc)
   end
 
-  validates :name, presence: true
-  validates :posts_counter, numericality: { only_integer: true, greater_than_or_equal_to: 0 }
+  validates :title, :text, presence: true
+
+  validates :title, presence: true,
+                    length: { maximum: 250, too_long: 'Title must not exceed 250 characters' }
+  validates_numericality_of :comments_counter, only_integer: true, greater_than_or_equal: 0
+  validates_numericality_of :likes_counter, only_integer: true, greater_than_or_equal: 0
 end
