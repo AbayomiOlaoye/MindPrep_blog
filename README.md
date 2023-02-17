@@ -57,9 +57,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Fully functional website**
-- **Leverages RDMS (PostgreSQL)**
-- **Aesthetic Design**
+- Fully functional website
+- Leverages RDMS (PostgreSQL)
+- Mini Design
+- Input SQL queries with ActiveRecord
+- Implement preprocessed HTML file with embedded Ruby code.
+- Use layouts and templates for shared content.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,9 +133,8 @@ rspec ./spec --format documentation
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use React for the Views**
-- [ ] **Implement some mmotions and transitions**
-- [ ] **Build Forms for comments and posts**
+- [ ] Use React for the Views
+- [ ] Implement some mmotions and transitions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
