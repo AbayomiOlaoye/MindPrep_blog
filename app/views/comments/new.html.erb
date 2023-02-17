@@ -1,2 +1,17 @@
-<h1>Comments#new</h1>
-<p>Find me in app/views/comments/new.html.erb</p>
+<%= form_with(model: @comment, url: {action: "create"}) do |form| %>
+
+  <div class="input">
+    <%= form.label :text %>
+    <%= form.text_field :text %>
+  </div>
+
+  <div class="submit d-flex">
+    <%= form.submit "submit" %>
+  </div>
+
+  <div class="post-btn">
+    <button>
+      <%= link_to "back",  user_post_path(@user, @post)%>
+    </button>
+  </div>
+<% end %>>
