@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'likes/create'
+  get 'likes/like_params'
   get 'comments/new'
   get 'comments/create'
   get 'comments/comment_params'
