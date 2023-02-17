@@ -13,7 +13,7 @@ RSpec.describe 'Posts', type: :request do
     end
 
     it 'returns correct response body' do
-      expect(response.body).to include('List of all posts')
+      expect(response.body).to include('Show all')
     end
   end
 
@@ -29,7 +29,7 @@ RSpec.describe 'Posts', type: :request do
     end
 
     it 'returns correct response body' do
-      expect(response.body).to include('Post of the user')
+      expect(response.body).to include('Show posts')
     end
   end
 end
