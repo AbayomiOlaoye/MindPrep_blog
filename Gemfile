@@ -75,6 +75,8 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+gem 'rails-controller-testing'
+
 gem 'ruby-lsp', '~> 0.3.8', group: :development
 
 gem 'rubocop', '>= 1.0', '< 2.0'
