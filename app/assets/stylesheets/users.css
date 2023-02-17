@@ -10,8 +10,7 @@
 }
 
 .img-container {
-  width: 27%;
-  max-width: 100px;
+  max-width: 17%;
   border: var(--size-border);
   margin-right: 1rem;
 }
