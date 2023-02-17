@@ -11,6 +11,7 @@
 
 .img-container {
   max-width: 17%;
+  width: 100px;
   border: var(--size-border);
   margin-right: 1rem;
 }
