@@ -1,17 +1,1 @@
-<%= form_with(model: @comment, url: {action: "create"}) do |form| %>
-
-  <div class="input">
-    <%= form.label :text %>
-    <%= form.text_field :text %>
-  </div>
-
-  <div class="submit d-flex">
-    <%= form.submit "submit" %>
-  </div>
-
-  <div class="post-btn">
-    <button>
-      <%= link_to "back",  user_post_path(@user, @post)%>
-    </button>
-  </div>
-<% end %>>
+<%= render partial: 'comments/form', locals: { user: @user, post: @post } %>
