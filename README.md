@@ -90,6 +90,8 @@ Clone this project on your local machine using the following command on your ter
 Run the following command to install all project's dependencies:
 ```sh
 bundle install
+rails db:create
+rails db:migrate
 ```
 Run the following command to install Rspec for tests:
 ```sh
@@ -131,7 +133,6 @@ rspec ./spec --format documentation
 - [ ] **Use React for the Views**
 - [ ] **Implement some mmotions and transitions**
 - [ ] **Build Forms for comments and posts**
-- [ ] **Validations, Model specs, and n+1 problems**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
