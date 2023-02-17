@@ -36,7 +36,7 @@ img {
   right: 0.7rem;
 }
 
-.show-user .bio {
+.showUusers .bio {
   padding: 0.7rem;
   border: var(--size-border);
   background-color: var(--primary-color);
@@ -68,7 +68,7 @@ img {
   margin-right: 0.5rem;
 }
 
-.showUser .post-btn {
+.showUsers .post-btn {
   width: 100%;
   justify-content: center;
 }
