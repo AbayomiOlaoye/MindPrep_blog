@@ -55,7 +55,10 @@ section {
 }
 
 form {
-  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 640px;
   margin: 1.5rem auto;
   padding: 1rem;
   background-color: #ccc;
@@ -64,6 +67,15 @@ form {
 
 .d-none {
   display: none;
+}
+
+input[name="commit"],
+#user_name,
+#user_password_confirmation,
+#user_password,
+#user_email {
+  width: 100%;
+  padding: 0.3rem;
 }
 
 .input label {
