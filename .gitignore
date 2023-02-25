@@ -26,7 +26,11 @@
 !/tmp/storage/.keep
 
 /public/assets
-
+/public/packs
+/public/packs-test
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
