@@ -20,6 +20,8 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: postgres
+  password: SaveMind
 
 development:
   <<: *default
@@ -81,6 +83,8 @@ test:
 #
 production:
   <<: *default
+  prepared_statements: false
+  advisory_locks: false
+  statement_limit: 200
   database: MindPrep_Blog_production
-  username: MindPrep_Blog
-  password: <%= ENV["MINDPREP_BLOG_DATABASE_PASSWORD"] %>
+

@@ -34,7 +34,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_07_113348) do
   end
 
   create_table "posts", force: :cascade do |t|
-    t.text "title"
+    t.bigint "user_id", null: false
+    t.string "title"
     t.text "text"
     t.integer "comments_counter"
     t.integer "likes_counter"
@@ -42,6 +43,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_07_113348) do
     t.datetime "updated_at", null: false
     t.bigint "author_id"
     t.index ["author_id"], name: "index_posts_on_author_id"
+    t.index ["user_id"], name: "index_posts_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -57,5 +59,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_07_113348) do
   add_foreign_key "comments", "users", column: "author_id"
   add_foreign_key "likes", "posts"
   add_foreign_key "likes", "users", column: "author_id"
+  add_foreign_key "posts", "users"
   add_foreign_key "posts", "users", column: "author_id"
 end
