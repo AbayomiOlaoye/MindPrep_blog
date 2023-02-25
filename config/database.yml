@@ -21,7 +21,7 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: oluwatoyin
-  password: <%= ENV["OLUWATOYIN_DATABASE_PASSWORD"] %>
+  password:  <%= ENV["OLUWATOYIN_DATABASE_PASSWORD"] %>
 
 development:
   <<: *default
@@ -87,4 +87,3 @@ production:
   advisory_locks: false
   statement_limit: 200
   database: MindPrep_Blog_production
-
