@@ -208,6 +208,12 @@ $  rspec spec     # to test if your tests are passed
 - Twitter: [@Olaoye](https://twitter.com/olaoyeelijah)
 - LinkedIn: [Oluwatoyin Olaoye](https://linkedin.com/in/oluwatoyinolaoye)
 
+👤 **Sammuel LEKPOR**
+
+- GitHub: [@Samuellekpor](https://github.com/Samuellekpor)
+- Twitter: [@samuel_lekpor](https://twitter.com/samuel_lekpor)
+- LinkedIn: [sammuel-lekpor](https://linkedin.com/in/sammuel-lekpor)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
