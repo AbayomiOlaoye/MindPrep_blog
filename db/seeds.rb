@@ -8,7 +8,7 @@ image3 = 'https://user-images.githubusercontent.com/79058364/150375449-6871e044-
 image4 = 'https://user-images.githubusercontent.com/79058364/150375487-d5a82b30-cef1-45b1-be4f-28413e8839a7.jpg'
 image5 = 'https://user-images.githubusercontent.com/79058364/150398570-de44d578-8f17-4150-b7b4-15c085e7d627.jpg'
 
-user1 = User.create!(name: 'John Doe', photo: image1, bio: "#{lorem_bio}- John Doe", posts_counter: 0)
+user1 = User.create!(name: 'John Doe', photo: image1, bio: "#{lorem_bio advertuuis}- John Doe", posts_counter: 0)
 user2 = User.create!(name: 'Michal Smith ', photo: image2, bio: "#{lorem_bio}- Michal Smith", posts_counter: 0)
 user3 = User.create!(name: 'Julia Lisa', photo: image3, bio: "#{lorem_bio}- Danny Dril", posts_counter: 0)
 user4 = User.create!(name: 'Gomez lucky', photo: image4, bio: "#{lorem_bio}- Gomez lucky", posts_counter: 0)
